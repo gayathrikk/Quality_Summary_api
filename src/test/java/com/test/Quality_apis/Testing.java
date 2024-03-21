@@ -19,7 +19,7 @@ public class Testing {
 	}
 	
 	@Test(priority=2)
-	public void Quality_FailedResons() {
+	public void Quality_FailedReasons() {
         Response response1 = RestAssured.get("https://apollo2.humanbrain.in/dashboard/qualityFailedReasons");
         int statusCode1 = response1.getStatusCode();
         
