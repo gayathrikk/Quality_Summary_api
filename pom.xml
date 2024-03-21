@@ -70,7 +70,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
           <configuration>
-            <test>com.test.Quality_apis.Quality_apis</test>
+            <test>com.test.Quality_apis.Quality_Summary_api</test>
           </configuration>
         </plugin>
       </plugins>
